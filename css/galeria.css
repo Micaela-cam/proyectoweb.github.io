@@ -1,0 +1,64 @@
+/*Menu principal */
+#menu {background-color: #880a0a; height: 90px; width: 100%;
+  position:fixed; top: 0em; left: 0em; }
+li { display: inline; position: relative; left: 24em; bottom: 4em; margin: 1em;
+ font-size: larger; font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
+a { text-decoration: none; color: white; }
+#menu img { width: 7%; margin: -0.5em 4em; transition: 1s;} 
+#menu .fb {  width: 2.5%; float: right; margin-right: 9em; margin-top: -7em;}
+#menu .ig { width: 2.5%; float: right; margin-right: 6em; margin-top: -7em; }
+#menu .wsp { width: 2.5%; float: right; margin-right: 3em; margin-top: -7em;}
+#menu img:hover { transform: scale(1.2);}
+
+/*todas las cajas del body*/
+body { margin: 0em; padding: 0em;}
+.box1 { background-image: url("../imagenes/2093dcbc-9c44-4693-a18a-f6816104d825.jpg"); background-size: cover; height: 730px;}
+.box2 { background-color: #f7f4f4; background-size: cover; height: 3000px; }
+.box3 { background-color: #880a0a; background-size: cover; height: 540px; }
+
+
+
+/*caja 1*/
+.box1 .descripcion { background-color: #d2c3c38e; float: right; margin: 13em 17em; width: 60%; 
+  height: 300px; border-radius: 5px; }
+.box1 .descripcion h1 { text-align: center; padding-top: 1em; font-size: 40px; }
+.box1 .descripcion p { color:black; font-size: x-large; text-align: center; padding-top: 2em;  
+              padding-right: 2em;  }
+/*caja 2*/
+
+.box2 h1 { text-align: center; margin-top: 0em;  padding-top: 3em; font-size: 35px;}
+.box2 p { text-align: center; color: #645e5e; font-size: large; font-family: Arial, Helvetica, sans-serif; }
+.box2 #uno { width: 40%; height: 555px; float: left; margin: 4em 15em; }
+.box2 #dos { width: 27%; height: 555px; float: left; margin: 4em -14em;}
+.box2 #tres { width: 30%; height: 555px; float: left; margin: -3em 15em; }
+.box2 #cuatro { width: 37%; height: 555px; float: left; margin: -3em -14em;}
+.box2 #cinco { width: 40%; height: 17%; float: left; margin: 4em 15em; }
+.box2 #seis { width: 25%; height: 555px; float: left; margin: 4em -14em;}
+.box2 #siete { width: 25%; height: 555px; float: left; margin: -3em 15em; }
+.box2 #ocho { width: 40%; height: 17%; float: left; margin: -3em -14em; }
+.box2 img:hover{ transform: scale(1.2); }
+.box2 img { border-radius: 5px; transition: 1s; }
+
+
+
+/*caja 3*/
+.box3 img { width: 12%; margin: 2em 10em 3.5em; transition: 1s; }
+.box3 img:hover { transform: scale(1.2);}
+.box3 .form { width: 30%; height: 10em;  margin: -4em 11em;}
+.box3 .form p { font-family: Arial, Helvetica, sans-serif; color: white; font-weight: 600; font-size: medium; font-weight: 500;}
+.box3 .form .cont { font-family: Arial, Helvetica, sans-serif; color: white;font-size: 14px; font-weight: 100; }
+.box3 .form .nombre { width: 45%; height: 50px; border-radius: 5px; border-color: white; 
+                      background-color: #880a0a; margin-top: 0.7em; margin-bottom: 0.7em;} 
+                      ::placeholder { color: #eed4d4; font-size: 17px; padding-left: 1em; 
+                        font-family: Arial, Helvetica, sans-serif;}
+
+.box3 .form .boton { width: 30%; height: 50px; margin-left: 1em; border-radius: 5px; 
+                     color:#880a0a; font-weight: 800; font-size: 15px; 
+                    border-color: white; font-family: Arial, Helvetica, sans-serif; }
+
+.box3 .fot1 { float: right; margin: -10em 30em; font-family: Arial, Helvetica, sans-serif; color:#eed4d4; line-height: 2em; }
+.box3 .blanc { color: white;}
+.box3 .fot2 { float: right; margin: -10em 10em; font-family: Arial, Helvetica, sans-serif; color: #eed4d4; line-height: 2em; }
+.box3 .line { width: 70%; height: 5%; margin: 8em 15em; border-top-width: 0.5px; border-top-style: solid; border-top-color: #a99f9f; } 
+.box3 .line p { text-align: center; font-family: Arial, Helvetica, sans-serif; color: #ffffff; }
+

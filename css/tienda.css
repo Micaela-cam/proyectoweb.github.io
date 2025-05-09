@@ -1,0 +1,135 @@
+/*menu*/
+ #menu {background-color: #880a0a; height: 90px; width: 100%;
+        position: fixed; top: 0em; }
+  li { display: inline; position: relative; left: 24em; bottom: 4em; margin: 1em;
+       font-size: larger; font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
+  a { text-decoration: none; color: white; }
+  #menu img { width: 7%; margin: -0.5em 4em; transition: 1s; } 
+  #menu .fb {  width: 2.5%; float: right; margin-right: 9em; margin-top: -7em;}
+  #menu .ig { width: 2.5%; float: right; margin-right: 6em; margin-top: -7em; }
+  #menu .wsp { width: 2.5%; float: right; margin-right: 3em; margin-top: -7em;}
+  #menu img:hover { transform: scale(1.2);}
+
+
+/*todas las cajas del body*/
+body { margin: 0em; padding: 0em;}
+.box1 { background-image: url(../imagenes/fondo1.jpg);
+        background-size: cover; height: 730px;  }
+.box2 { background-color: white; background-size: cover; height: 1200px; }
+.box3 { background-color: #880a0a; background-size: cover; height: 540px; }
+
+/*caja uno*/
+.box1 .titulo { width: 60%; height: 300px; background-color: rgba(128, 128, 128, 0.559);
+                 float: right; margin: 13em 17em; border-radius: 5px;}
+.box1 .titulo h1 { text-align: center; padding-top: 2em; font-size: 40px;}
+
+
+
+/*caja dos */
+.sobrecontenedor { width: 1200px; padding: 10px; margin: auto; display: flex; 
+                   justify-content: space-between; }
+.sobrecontenedor .box2 { margin-top: 30px; display: grid; 
+                    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+                      grid-gap: 30px; grid-row-gap: 30px; width: 70%; transition: .3s;}
+.sobrecontenedor .box2 .contenedor { width: 60%; padding: 40px; margin: auto; border: 1px solid #666;
+                   border-radius: 10px; transition: .3s; border-color: #880a0a;
+                    }
+.sobrecontenedor .box2 .contenedor:hover { box-shadow: 0 0 10px #666;
+                          scale: 1.05;}
+.box2 .contenedor .item { width: 100%; height: 150px; }
+.box2 .contenedor .titulo { display: block; font-weight: bold; text-align: center;
+                            text-transform: uppercase;}
+
+.box2 .contenedor .precio { display: block; text-align: center; font-weight: bold; font-size: 22px;}
+
+.box2 .contenedor .boton { display: block; margin: 15px auto; border: none;
+                             background: rgb(89, 29, 29); color: #fff; padding: 5px 15px; 
+                           border-radius: 5px; cursor: pointer; font-size: 15px; }
+
+
+/*parte de carrito*/
+
+.carrito { 
+           border: 1px solid #880a0a; width:35%; margin-top: 30px;
+           border-radius: 10px; overflow: hidden;
+           margin-bottom: auto; position: sticky !important; top: 0;
+           transition: .3s; margin-left: 3em;
+}
+.carrito .h-carrito { background-color: #880a0a; color: #fff; 
+                      text-align: center; padding: 10px 0;}
+
+.carrito .art-carrito { display: flex; align-items: center; position: relative; border-bottom: 1px solid #880a0a ;
+                        padding: 10px;}
+
+.carrito .art-carrito img { margin-right: 20px;}
+.carrito .art-carrito .carrito-art-tit { display: block; font-weight: bold; margin-bottom: 10px;
+                                         text-transform: uppercase; }
+
+.carrito .art-carrito .selec-cant { display: inline-block; margin-right: 25px; }
+
+.carrito .art-carrito .carrito-art-cant { border: none; font-size: 18px; background: transparent;
+                                           display: inline-block; width: 30px; padding: 5px; 
+                                            text-align: center;}
+.carrito .art-carrito .selec-cant i { font-size: 18px; width: 32px; height: 32px; line-height: 32px; 
+                                      text-align: center; border-radius: 58%; border: 1px solid #000; cursor: pointer; }
+.carrito .art-carrito .carrito-art-precio { font-weight: bold; display: inline-block; font-size: 18px; margin-bottom: 5px;}
+
+.carrito .art-carrito .btn-eliminar { position: absolute; right: 15px; top:15px; color: #000; width: 40px; height: 40px;
+                                        line-height: 40px; text-align: center; border-radius: 50%; border: 1px solid #000 ; cursor: pointer;
+                                          display: block; background: transparent; z-index: 20; }
+
+.carrito .art-carrito .btn-eliminar i { pointer-events: none;}
+.carrito-total { background-color: #f3f3f3; padding: 30px;}
+
+.carrito-total .fila {display: flex; justify-content: space-between; align-items: center; font-size: 22px; font-weight: bold; margin-bottom: 10px; }
+
+.carrito-total .btn-pagar { display: block; width: 100%; border: none; background: #880a0a; color:#fff; border-radius: 5px; font-size: 18px; padding: 20px; display: flex;
+                            justify-content: space-between; align-items: center; cursor: pointer; transition: .3s; } 
+ 
+.carrito-total .btn-pagar:hover { scale: 1.05;} 
+
+@media scren and (max-width: 850px) { 
+  .contenedor { display: block;}
+
+}                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*caja 3*/
+.box3 img { width: 12%; margin: 2em 10em 3.5em; transition: 1s; }
+.box3 img:hover { transform: scale(1.2);}
+.box3 .form { width: 30%; height: 10em;  margin: -4em 11em;}
+.box3 .form p { font-family: Arial, Helvetica, sans-serif; color: white; font-weight: 600; font-size: medium; font-weight: 500;}
+.box3 .form .cont { font-family: Arial, Helvetica, sans-serif; color: white;font-size: 14px; font-weight: 100; }
+.box3 .form .nombre { width: 45%; height: 50px; border-radius: 5px; border-color: white; 
+                      background-color: #880a0a; margin-top: 0.7em; margin-bottom: 0.7em;} 
+                      ::placeholder { color: #eed4d4; font-size: 17px; padding-left: 1em; 
+                        font-family: Arial, Helvetica, sans-serif;}
+
+.box3 .form .boton { width: 30%; height: 50px; margin-left: 1em; border-radius: 5px; 
+                     color:#880a0a; font-weight: 800; font-size: 15px; 
+                    border-color: white; font-family: Arial, Helvetica, sans-serif; }
+
+.box3 .fot1 { float: right; margin: -10em 30em; font-family: Arial, Helvetica, sans-serif; color:#eed4d4; line-height: 2em; }
+.box3 .blanc { color: white;}
+.box3 .fot2 { float: right; margin: -10em 10em; font-family: Arial, Helvetica, sans-serif; color: #eed4d4; line-height: 2em; }
+.box3 .line { width: 70%; height: 5%; margin: 8em 15em; border-top-width: 0.5px; border-top-style: solid; border-top-color: #a99f9f; } 
+.box3 .line p { text-align: center; font-family: Arial, Helvetica, sans-serif; color: #ffffff; }

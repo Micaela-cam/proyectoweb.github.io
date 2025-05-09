@@ -1,0 +1,97 @@
+/* servicios */
+/* menu */
+#menu {background-color: #880a0a; height: 90px; width: 100%;
+    position: fixed; top: 0em; left: 0em;  }
+li { display: inline; position: relative; left: 24em; bottom: 4em; margin: 1em;
+   font-size: larger; font-family: Arial, Helvetica, sans-serif; font-weight: 400; }
+a { text-decoration: none; color: white; }
+#menu img { width: 7%; margin: -0.5em 4em; transition: 1s; } 
+#menu .fb {  width: 2.5%; float: right; margin-right: 9em; margin-top: -7em;}
+#menu .ig { width: 2.5%; float: right; margin-right: 6em; margin-top: -7em; }
+#menu .wsp { width: 2.5%; float: right; margin-right: 3em; margin-top: -7em;}
+#menu img:hover { transform: scale(1.2);}
+/* todas las cajas de este html */
+body {  margin: 0em; padding: 0em; }
+
+.box1 { background-image: url("../imagenes/freepik__candid-image-photography-natural-textures-highly-r__32343.jpeg"); background-size: cover; height: 730px; }
+.box2 { background-color: rgb(242, 238, 238); background-size: cover; height: 2100px;}
+.box3 { background-color: rgb(231, 225, 225); background-size: cover; height: 700px;}
+.box4 { background-color: rgb(242, 238, 238); background-size: cover; height: 600px;}
+.box5 { background-color: #880a0a; background-size: cover; height: 540px; }
+/*caja1*/
+.box1 .sub { width: 60%; height: 40%; background-color: #a99f9f87; float: right; margin: 13em 17em; border-radius: 5px; }
+.box1 .sub h1 { padding: 0.5em 4em; text-align: center; font-size: 35px;}
+.box1  .sub p { font-size: large; margin: -2em 7em; font-size: 25px; text-align: center; }
+
+/*caja 2*/
+.box2 h1 { margin-top: 0em; padding-top: 4.5em; text-align: center; padding-bottom: 3em;} 
+
+.box2 .uno { width: 23%; background-color: white; height: 33%; float: left; margin-left: 12em; border-radius: 5px;}
+.box2 .uno h2 {font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 1em;padding-left: 2.2em; }
+.box2 .uno p { font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px;}
+
+.box2 .dos { width: 23%; background-color: white; height: 33%; float: left; margin-left: 3em; margin-right: 3em; 
+            border-radius: 5px; }
+.box2 img { width: 100%; height: 45%; border-radius: 7px;}
+.box2 .dos h2 { font-family: Arial, Helvetica, sans-serif; text-align: center; padding-top: 1em;}
+.box2 .dos p { font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px;}
+
+.box2 .tres { width: 23%; background-color: #ffffff; height: 33%; float: left; border-radius: 5px;}
+.box2 .tres h2 { font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 1em; padding-left: 2.2em;}
+.box2 .tres p { font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px; }
+
+.box2 .cuatro { width: 23%; background-color: white; height: 33%; float: left; border-radius: 5px; margin-left: 12em; margin-top: 2.5em;}
+.box2 .cuatro h2 {font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 1em; padding-left: 2.2em; }
+.box2 .cuatro p { font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px; }
+
+.box2 .cinco { width: 23%; background-color: white; height: 33%; float: left; border-radius: 5px; margin-left: 3em; margin-top: 2.5em;}
+.box2 .cinco h2 { font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 1em; padding-left: 2.2em;}
+.box2 .cinco p {font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px; }
+
+.box2 .seis { width: 23%; background-color: white; height: 33%; float: left; border-radius: 5px; margin-left: 3em; margin-top: 2.5em;}
+.box2 .seis h2 { font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 1em; padding-left: 2.2em; }
+.box2 .seis p { font-family: Arial, Helvetica, sans-serif; text-align: justify; padding-left: 3em; font-size: large; line-height: 25px;}
+/*caja 3*/
+.box3 h1 { margin-top: 0em; padding-top: 3em; text-align: center; }
+.box3 table { margin: auto; margin-top: 5em; width: 86%; border-collapse: separate; 
+  border-spacing: 5px;
+  border-spacing: 1vw;
+  border-spacing: 2em; height: 29% }
+.box3 table th { font-family: Arial, Helvetica, sans-serif; background-color: #fbebeb; 
+                 border-radius: 5px; font-size: x-large; }
+.box3 table p { font-weight: 100; color: gray; font-size: medium;}
+
+
+
+/*caja 4*/
+.box4 h1 { margin-top: 0em; padding-top: 3em; text-align: center; }
+.box4 table { margin: auto; margin-top: 5em; width: 75%; border-collapse: separate; 
+  border-spacing: 5px;
+  border-spacing: 1vw;
+  border-spacing: 2em; height: 30%;  }
+.box4 table th { font-family: Arial, Helvetica, sans-serif; background-color: white; border-radius: 5px; font-size: x-large;}
+.box4 table p { font-weight: 100; color: #a99f9f; font-size: medium;  } 
+
+
+/*caja5*/
+.box5 img { width: 12%; margin: 2em 10em 3.5em; transition: 1s;}
+.box5 img:hover { transform: scale(1.2);}
+.box5 .form { width: 30%; height: 10em;  margin: -4em 11em;}
+.box5 .form p { font-family: Arial, Helvetica, sans-serif; color: white; font-weight: 600; font-size: medium; font-weight: 500;}
+.box5 .form .cont { font-family: Arial, Helvetica, sans-serif; color: white;font-size: 14px; font-weight: 100; }
+.box5 .form .nombre { width: 45%; height: 50px; border-radius: 5px; border-color: white; 
+                      background-color: #880a0a; margin-top: 0.7em; margin-bottom: 0.7em;} 
+                      ::placeholder { color: #eed4d4; font-size: 17px; padding-left: 1em; 
+                        font-family: Arial, Helvetica, sans-serif;}
+
+.box5 .form .boton { width: 30%; height: 50px; margin-left: 1em; border-radius: 5px; 
+                     color:#880a0a; font-weight: 800; font-size: 15px; 
+                    border-color: white; font-family: Arial, Helvetica, sans-serif; }
+
+.box5 .fot1 { float: right; margin: -10em 30em; font-family: Arial, Helvetica, sans-serif; color:#eed4d4; line-height: 2em; }
+.box5 .blanc { color: white;}
+.box5 .fot2 { float: right; margin: -10em 10em; font-family: Arial, Helvetica, sans-serif; color: #eed4d4; line-height: 2em; }
+.box5 .line { width: 70%; height: 5%; margin: 8em 15em; border-top-width: 0.5px; border-top-style: solid; border-top-color: #a99f9f; } 
+.box5 .line p { text-align: center; font-family: Arial, Helvetica, sans-serif; color: #ffffff; }
+
+
